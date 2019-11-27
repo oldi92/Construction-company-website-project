@@ -42,8 +42,7 @@ nav{
     font-size: 14px;
     
 }
-#nav-links a:hover{
-    
+#nav-links a:hover{    
     color: rgba(202, 127, 127,0.9);
 }
 
@@ -66,13 +65,13 @@ nav{
 }
 
 @media screen and (max-width:768px){
-    body{
+    html {
         overflow-x: hidden;
     }
 
     
     #nav-links{
-        position: absolute;
+        position: fixed;
         right: 0;
         height: 92vh;
         top: 8vh;
@@ -80,7 +79,7 @@ nav{
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(200%);
+        transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
     #nav-links li a{
