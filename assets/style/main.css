@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+    
 }
 .container{     
     height: 90vh ;
@@ -67,7 +67,7 @@ nav{
 
 @media screen and (max-width:768px){
     body{
-        overflow-x:hidden
+        overflow-x: hidden;
     }
 
     
@@ -80,7 +80,7 @@ nav{
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(100%);
+        transform: translateX(200%);
         transition: transform 0.5s ease-in;
     }
     #nav-links li a{
