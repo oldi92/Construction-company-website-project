@@ -554,20 +554,100 @@ nav{
     }
     .aboutrightimage1{
         width: 34vw;
-        top:70vw;
+        top:75vw;
         left: 23%;
         
     }
     .aboutrightimage2{
         width: 34vw;
-        top: 78vw;
+        top: 83vw;
         left:55%
        
     }
     .aboutrightimage3{
         width: 34vw;
-        top: 90vw;
+        top: 95vw;
         left: 28%;
         
     }
+}
+
+
+
+/*  START  SERVICE PARAGRAPH   */
+
+
+.services {
+    position: relative;
+    text-align: center; 
+    padding: 5vw; 
+}
+.services h3{
+    font-size: 4vw;
+    padding-bottom: 4vw;
+    letter-spacing: 9px;
+}
+.services hr{
+    position: absolute;
+    background-color: black;
+    width: 6vw;
+    height: 1vw;
+    border: solid black ;
+    border-radius: 15px;
+    left: 49.5%;
+    top: 23%;
+}
+.services ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.services ul i {
+    font-size: 5vw;
+    padding-bottom: 4vw;
+}
+.services ul h4{
+    font-size: 1.5vw;
+    padding-bottom: 1vw;
+}
+.services ul p {
+    font-size: 1.4vw;
+    color: rgb(179, 179, 179);
+}
+.services ul li {
+    padding: 3vw;
+}
+
+@media screen and (max-width: 600px){
+
+    .services{
+        padding: 15vw;
+        padding-bottom: 10vw;
+    }
+    .services ul{
+        display: block;
+    }
+    .services h3 {
+        margin-top: 8vw;
+        font-size:7vw;
+        padding-bottom: 14vw;        
+    }
+    .services hr{
+        top: 12%;
+        width: 11vw;
+        left: 49%;
+    }
+    
+    .services ul i {
+        font-size: 13vw;
+        padding-bottom: 5vw;
+    }
+    .services ul h4{
+        font-size: 5vw;
+    }
+    .services ul p{
+        font-size: 3vw;
+        padding-bottom: 13vw;
+    }
+
 }
